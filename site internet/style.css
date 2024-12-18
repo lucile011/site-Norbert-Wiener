@@ -1,0 +1,202 @@
+/* Global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #003060; /* Bleu marine foncé */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+    margin: 5px 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #002347; /* Bleu encore plus foncé pour la barre de navigation */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #004080;
+    border-radius: 5px;
+}
+
+/* Sections principales */
+main {
+    padding: 20px;
+}
+
+main section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main section h2 {
+    margin-top: 0;
+    color: #003060; /* Bleu marine foncé pour les titres */
+}
+
+.image-principale {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Boutons */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: #003060; /* Bleu marine foncé */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #004080; /* Légèrement plus clair au survol */
+}
+
+/* Formulaire de contact */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #003060; /* Bleu marine foncé */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #004080; /* Légèrement plus clair au survol */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #002347; /* Bleu très foncé */
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffcc00; /* Jaune clair pour contraster */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery figure {
+    width: 30%;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.gallery figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Style général pour toutes les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles spécifiques aux images de la galerie */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 300px; /* Ajuste la largeur des images dans la galerie */
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Styles spécifiques à la page biographie */
+.bio-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bio-image {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
